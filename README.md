@@ -1,4 +1,9 @@
-# Interview preparation
+# Disclaimer
+
+Using Libcurl and Boost, I implement the basic REST API functions in C++. This is a more casual project that I did in preperation for one of my interviews for their "Integration Round". I used Visual Studio and after a lot of pain to figure out how to get Boost and Libcurl to work properly, I made the program and figured out the CMake. The README below is the README given by the company (whose name I have hidden), which shows how to set this up in Visual Studio along with Libcurl and Boost, along with the CMake file given. Here onwards is the file by the company.
+
+# Integration Round
+
 Thanks for interviewing at X. To make sure that we can use our time best in the interview, we'd like to have you do some setup in advance.
 
 We've noticed that more often than not, we've had to spend a significant portion of the interview helping candidates setup a CMake-based C++ environment on their personal laptops.

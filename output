@@ -1,0 +1,108 @@
+Hello World!
+GET Response: {
+  "args": {
+    "age": "56",
+    "name": "ali"
+  },
+  "headers": {
+    "Accept": "*/*",
+    "Host": "httpbin.org",
+    "X-Amzn-Trace-Id": "Root=1-674042a3-2df164857fa62f3019856689"
+  },
+  "origin": "103.144.92.238",
+  "url": "https://httpbin.org/get?name=ali&age=56"
+}
+
+GET Response Code: 200
+POST Response: {
+  "args": {},
+  "data": "{\"args\":{\"age\":\"56\",\"name\":\"akbar\"},\"headers\":{\"Accept\":\"*/*\",\"Host\":\"httpbin.org\",\"X-Amzn-Trace-Id\":\"Root=1-674042a3-2df164857fa62f3019856689\"},\"origin\":\"103.144.92.238\",\"url\":\"https://httpbin.org/get?name=ali&age=56\"}",
+  "files": {},
+  "form": {},
+  "headers": {
+    "Accept": "*/*",
+    "Content-Length": "219",
+    "Content-Type": "application/json",
+    "Host": "httpbin.org",
+    "X-Amzn-Trace-Id": "Root=1-674042a3-4b195c0879419b7a0592a62b"
+  },
+  "json": {
+    "args": {
+      "age": "56",
+      "name": "akbar"
+    },
+    "headers": {
+      "Accept": "*/*",
+      "Host": "httpbin.org",
+      "X-Amzn-Trace-Id": "Root=1-674042a3-2df164857fa62f3019856689"
+    },
+    "origin": "103.144.92.238",
+    "url": "https://httpbin.org/get?name=ali&age=56"
+  },
+  "origin": "103.144.92.238",
+  "url": "https://httpbin.org/post"
+}
+
+POST Response Code: 200
+PUT Response:
+{
+  "args": {
+    "name": "ryan",
+    "pass": "45"
+  },
+  "data": "{\"json\":{\"args\":{\"age\":\"56\",\"name\":\"akbar\"},\"headers\":{\"Accept\":\"*/*\",\"Host\":\"httpbin.org\",\"X-Amzn-Trace-Id\":\"Root=1-674042a3-2df164857fa62f3019856689\"},\"origin\":\"103.144.92.238\",\"url\":\"https://httpbin.org/get?name=ali&age=56\",\"name\":\"allah\",\"subobject\":{\"race\":\"black\",\"gender\":\"king\"}}}",
+  "files": {},
+  "form": {},
+  "headers": {
+    "Accept": "*/*",
+    "Content-Length": "288",
+    "Content-Type": "application/json",
+    "Host": "httpbin.org",
+    "X-Amzn-Trace-Id": "Root=1-674042a4-0b5da242474b6dc509ad894f"
+  },
+  "json": {
+    "json": {
+      "args": {
+        "age": "56",
+        "name": "akbar"
+      },
+      "headers": {
+        "Accept": "*/*",
+        "Host": "httpbin.org",
+        "X-Amzn-Trace-Id": "Root=1-674042a3-2df164857fa62f3019856689"
+      },
+      "name": "allah",
+      "origin": "103.144.92.238",
+      "subobject": {
+        "gender": "king",
+        "race": "black"
+      },
+      "url": "https://httpbin.org/get?name=ali&age=56"
+    }
+  },
+  "origin": "103.144.92.238",
+  "url": "https://httpbin.org/put?name=ryan&pass=45"
+}
+
+DELETE Response:
+{
+  "args": {},
+  "data": "",
+  "files": {},
+  "form": {},
+  "headers": {
+    "Accept": "*/*",
+    "Host": "httpbin.org",
+    "X-Amzn-Trace-Id": "Root=1-674042a5-2307c51e63437e7c3cf97382"
+  },
+  "json": null,
+  "origin": "103.144.92.238",
+  "url": "https://httpbin.org/delete"
+}
+
+GET Response: {
+  "authenticated": true,
+  "user": "a"
+}
+
+GET Response Code: 200
